@@ -47,6 +47,9 @@ input_boolean:
 
 ## Sensor
 
+
+
+
 {% highlight python %}
   - platform: time_date
     display_options:
