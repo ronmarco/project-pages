@@ -47,9 +47,9 @@ input_boolean:
 
 ## Sensor
 
-```
-<span class="s">input_slide{</span><span class="s">{% endif %}</span>
-```
+<div class="highlighter-rouge"><pre class="highlight"><code>input_slide{&lt;/span&gt;&lt;span class="s"&gt;% endif %}&lt;/span&gt;
+</code></pre>
+</div>
 
 # Script
 
