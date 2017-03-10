@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "Project 1"
-description: "Description of Project #1"
+title: "Home Automation"
+description: "Posts about Home Automation"
 header-img: "img/black-floorplan-v170310.gif"
-category: project1
+category: homeautomation
 ---
