@@ -1,8 +1,10 @@
 ---
 layout: page
 title: "About"
-description: "Why use Project Pages?"
+description: "About Ron Mar"
+header-img: "img/black-floorplan-v170310.gif"
 ---
 
-Project Pages is a research blog tool that allows you to quickly show your latest results to an advisor, collaborators or your mom.
-	
+Ron Mar was created to spread ideas about home automation projects.
+
+This site was built using <a href="http://projectpages.github.io/" target="_blank">Project Pages</a>.
