@@ -8,6 +8,10 @@ category:  homeautomation
 ---
 <!-- Start Writing Below in Markdown -->
 
+See how home automation can help you get up in the morning. Watch the youtube video here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qJ8ZoJuuZVA" frameborder="0" allowfullscreen></iframe>
+
 # Table of Contents
 
 * TOC
