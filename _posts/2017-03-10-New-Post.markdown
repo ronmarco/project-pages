@@ -47,10 +47,7 @@ input_boolean:
 
 ## Sensor
 
-
-```
           <span class="s">input_slide{% endif %}</span>
-```
 
 # Script
 
