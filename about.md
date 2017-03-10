@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "zAbout"
 description: "Why use Project Pages?"
 header-img: "img/home-bg.jpg"
 ---
