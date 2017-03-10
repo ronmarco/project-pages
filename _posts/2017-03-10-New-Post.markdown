@@ -8,7 +8,7 @@ category:  homeautomation
 ---
 <!-- Start Writing Below in Markdown -->
 
-See how home automation can help you get up in the morning. Watch the youtube video here:
+See how home automation can help you get up in the morning. Watch the YouTube video here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qJ8ZoJuuZVA" frameborder="0" allowfullscreen></iframe>
 
@@ -17,7 +17,17 @@ See how home automation can help you get up in the morning. Watch the youtube vi
 * TOC
 {:toc}
 
-# Basic Functionality
+# Intro
+
+# Interface
+
+# Script
+
+# Automation
+
+# Next Steps
+
+## References
 
 ## Headers
 
