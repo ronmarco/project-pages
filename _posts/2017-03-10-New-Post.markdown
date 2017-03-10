@@ -23,7 +23,7 @@ See how home automation can help you get up in the morning. Watch the YouTube vi
 
 ## Input Sliders
 
-```yaml
+```
 input_slider:
   alarm_clock_hour:
     initial: 6
@@ -48,7 +48,32 @@ input_boolean:
 ## Sensor
 
 ```
-test
+  - platform: time_date
+    display_options:
+      - 'time'
+  - platform: template
+    sensors:
+      alarm_clock_hour:
+        value_template: '{{ states.input_slider.alarm_clock_hour.state | int }}'
+      alarm_clock_minute:
+        value_template: '{{ states.input_slider.alarm_clock_minute.state | int }}'
+      alarm_clock_time:
+        value_template: >-
+          {{ states.sensor.alarm_clock_hour.state }}:
+          {%- if states.sensor.alarm_clock_minute.state|length == 1 -%}
+            0
+          {%- endif -%}
+            {{ states.sensor.alarm_clock_minute.state }}
+      alarm_clock_time_long:
+        value_template: >-
+          {% if states.sensor.alarm_clock_hour.state|length == 1 -%}
+            0
+          {%- endif -%}
+            {{ states.sensor.alarm_clock_hour.state }}:
+          {%- if states.sensor.alarm_clock_minute.state|length == 1 -%}
+            0
+          {%- endif -%}
+            {{ states.sensor.alarm_clock_minute.state }}
 ```
 
 # Script
