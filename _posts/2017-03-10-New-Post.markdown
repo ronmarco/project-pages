@@ -41,7 +41,7 @@ input_slider:
 
 ## Input Boolean
 
-{% highlight %}
+{% highlight yaml %}
 
 input_boolean:
   alarm_clock_status:
@@ -51,7 +51,7 @@ input_boolean:
 
 ## Sensor
 
-{% highlight %}
+{% highlight yaml %}
 
 test
 
