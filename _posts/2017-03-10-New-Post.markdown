@@ -49,7 +49,7 @@ input_boolean:
 
 
 ```
-          {% endif %}
+          <span class="s">input_slide{% endif %}</span>
 ```
 
 # Script
