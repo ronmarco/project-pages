@@ -1,6 +1,6 @@
 # Site settings
 title: Project Pages
-description: "An Integrated Scientific Blogging Te"
+description: "An Integrated Scientific Blogging Temp"
 url: "https://ronmarco.github.io"
 
 
@@ -8,7 +8,7 @@ url: "https://ronmarco.github.io"
 
 # Secondary Parameters
 baseurl: "/project-pages"
-header-img: img/white-floorplan-v170310
+header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 
