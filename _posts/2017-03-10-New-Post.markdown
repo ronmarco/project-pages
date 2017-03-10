@@ -49,7 +49,7 @@ input_boolean:
 
 
 ```
-          {%- endif -%}
+          {% endif %}
 ```
 
 # Script
