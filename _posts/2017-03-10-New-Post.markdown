@@ -3,7 +3,7 @@ layout:     post
 title:      Ultimate Alarm Clock
 author:     Ron Mar
 tags: 		Home-Assistant lighting automation
-subtitle:  	Ultimate Alarm Clock with Home Assistant on a Raspberry Pi
+subtitle:  	How-to Guide
 category:  homeautomation
 ---
 <!-- Start Writing Below in Markdown -->
