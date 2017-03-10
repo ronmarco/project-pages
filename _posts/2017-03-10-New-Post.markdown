@@ -23,7 +23,7 @@ See how home automation can help you get up in the morning. Watch the YouTube vi
 
 ## Input Sliders
 
-{% highlight yaml %}
+{% highlight %}
 input_slider:
   alarm_clock_hour:
     initial: 6
