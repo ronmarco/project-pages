@@ -39,7 +39,7 @@ input_slider:
 
 ## Input Boolean
 
-{% highlight %}
+{% highlight yaml %}
 input_boolean:
   alarm_clock_status:
     initial: on
@@ -47,7 +47,7 @@ input_boolean:
 
 ## Sensor
 
-{% highlight %}
+{% highlight yaml %}
   - platform: time_date
     display_options:
       - 'time'
