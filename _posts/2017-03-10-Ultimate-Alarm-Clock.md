@@ -162,7 +162,7 @@ script:
         entity_id: switch.smart_switch1
 ```
 
-Personalize the above code based on your own configuration:
+Personalize the above code for your own configuration:
 
 * Substitute the entity names of your own devices for `light.lux_lamp` and `switch.smart_switch1`.
 * Adjust the `service:` to fit your needs.
