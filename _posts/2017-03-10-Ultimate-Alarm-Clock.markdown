@@ -3,7 +3,7 @@ layout:     post
 title:      Ultimate Alarm Clock
 author:     Ron Mar
 tags: 		Home-Assistant lighting automation
-subtitle:  	How-to Guide
+subtitle:  	How-To Guide
 category:  ha
 ---
 <!-- Start Writing Below in Markdown -->
