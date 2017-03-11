@@ -33,7 +33,7 @@ The first step setting up the interface in home assistant. It is used to set the
 
 ## Input Sliders
 
-We use input sliders to set the hour and minute of the alarm clock. See below for code to paste in your `configuration.yaml` file:
+We use input sliders to set the hour and minute of the alarm clock. See below for code to paste in your *configuration.yaml* file:
 
 ```
 input_slider:
@@ -61,11 +61,11 @@ input_boolean:
 
 ## Sensor
 
-Now we need to add two new "sensors" that format the input slider values and the current time to make them easier to compare. There are several steps:
+Now we need to add new "sensors" that format the input slider values and the current time to make them easier to compare. There are several steps:
 
-1. Locate the `sensor:` line in your `configuration.yaml` file. The code will go below this line.
+1. Locate the `sensor:` line in your *configuration.yaml* file. The new code will go below this line.
 2. If there is an exisiting sensor such as `platform: yr`, add a dash and a space before it to begin a list (i.e., it should change to `- platform: yr`).
-3. Copy the code below on the next line:
+3. Paste the code for the new sensors on the next line. The code is shown below:
 
 <div class="highlighter-rouge"><pre class="highlight"><code>  - platform: time_date
     display_options:
