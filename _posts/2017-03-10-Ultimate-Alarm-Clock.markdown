@@ -4,7 +4,7 @@ title:      Ultimate Alarm Clock
 author:     Ron Mar
 tags: 		Home-Assistant lighting automation
 subtitle:  	How-to Guide
-category:  homeautomation
+category:  ha
 ---
 <!-- Start Writing Below in Markdown -->
 
