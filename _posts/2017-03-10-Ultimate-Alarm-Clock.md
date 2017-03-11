@@ -159,6 +159,8 @@ Scroll to the top of the **configuration.yaml** file to paste the code at the en
       icon: mdi:alarm-check
 ```
 
+Note: Ensure there are two spaces before `customize:` so Home Assistant recognizes the code as under the `homeassistant:` heading.
+
 # Script
 
 Now we'll write the script that will tell Home Assistant what to do when the alarm goes off:
