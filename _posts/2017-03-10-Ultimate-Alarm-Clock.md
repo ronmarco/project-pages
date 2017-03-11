@@ -23,7 +23,7 @@ Before you start, you'll need two things:
 1. Raspberry Pi (and SD card and power supply) with Home Assistant installed
 2. Devices to control
 
-You can learn how to install Home Assistant from the [Home Assistant site](https://home-assistant.io/docs/hassbian/installation/) or this helpful [video by BRUH Automation](https://www.youtube.com/watch?v=tCGlQSsQ-Mc).
+You can learn how to install Home Assistant from the [Home Assistant site](https://home-assistant.io/docs/hassbian/installation/) or [this helpful video by BRUH Automation](https://www.youtube.com/watch?v=tCGlQSsQ-Mc).
 
 Different devices connect to Home Assistant in different ways. Some devices, such as Philips Hue and Sonos Speakers, can be automatically detected and configured by the [discovery component](https://home-assistant.io/components/discovery/). Z-Wave devices can be connected using a USB stick plugged into the Raspberry Pi and some [configuration in Home Assistant](https://home-assistant.io/docs/z-wave/) (BRUH Automation has a [great video](https://www.youtube.com/watch?v=ajklDCaOGwY) about this). 
 
@@ -33,7 +33,7 @@ My alarm clock was inspired by [this thread on the Home Assistant forums](https:
 
 The first step is to create an alarm clock interface in Home Assistant. The interface is used to set the time for the alarm. Once the time is set, the alarm will go off each day — you won't have to touch the interface again.
 
-The interface will look like this:
+The interface looks like this:
 
 ![Interface](http://ronmar.co/img/170310_alarm_clock_interface.jpg)
 
