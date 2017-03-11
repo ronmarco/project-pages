@@ -29,7 +29,11 @@ Different devices connect to Home Assistant in different ways. Some devices such
 
 # Interface
 
+The first step setting up the interface in home assistant. It is used to set the time for the alarm and once you set it to the right time, you won't have to touch it again.
+
 ## Input Sliders
+
+We use input sliders to set the hour and minute of the alarm clock. See below for code to paste in your `configuration.yaml` file:
 
 ```
 input_slider:
