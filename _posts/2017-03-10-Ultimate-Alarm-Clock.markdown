@@ -66,7 +66,7 @@ input_boolean:
 Now we need to add new "sensors" that format the input slider values and the current time to make them easier to compare. There are several steps:
 
 1. Locate the `sensor:` line in your **configuration.yaml** file. The code will go below this line.
-2. If there is an exisiting sensor such as `platform: yr`, add a dash and a space before it to begin a list (i.e., it should change to `- platform: yr`).
+2. If there is an existing sensor such as `platform: yr`, add a dash and a space before it to begin a list (i.e., it should change to `- platform: yr`).
 3. Paste the code for the new sensors on the next line. The code is shown below:
 
 <div class="highlighter-rouge"><pre class="highlight"><code>  - platform: time_date
@@ -162,7 +162,7 @@ script:
 
 Personalize the above code based on your own configuration:
 
-* Substitute the entitiy names of your own devices for `light.lux_lamp` and `switch.smart_switch1`.
+* Substitute the entity names of your own devices for `light.lux_lamp` and `switch.smart_switch1`.
 * Change the `service:` to fit your needs. Lights can be turned off with `light.turn_off` and entities can be turn on with `homeassistant.turn_off`
 * When editing the `light` service, the `brightness:` parameter sets the brightness of the bulb on a 0-255 scale and `transition:` sets the number of seconds to fade in.
 
@@ -185,9 +185,9 @@ This last step ties the interface and the scripts together. The automation detec
 
 # Next Steps
 
-There are tons of ways to take this alarm clock futher, including:
+There are tons of ways to take this alarm clock further, including:
 
-For the iterface, you could use Tasker or one of the many <a href="https://home-assistant.io/components/#all" target="_blank">Home Assistant components</a> to set the alarm clock automatically using information from your phone. 
+For the interface, you could use Tasker or one of the many <a href="https://home-assistant.io/components/#all" target="_blank">Home Assistant components</a> to set the alarm clock automatically using information from your phone. 
 
 For the scripts, you can adjust timing. For example, by adding `- delay: 00:05:00`, you can delay an service by 5 minutes (<a href="https://home-assistant.io/docs/scripts/" target="_blank">more information here</a>). 
 
