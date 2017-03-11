@@ -27,7 +27,7 @@ You can learn how to install Home Assistant from the [Home Assistant site](https
 
 Different devices connect to Home Assistant in different ways. Some devices, such as Philips Hue and Sonos Speakers, can be automatically detected and configured by the [discovery component](https://home-assistant.io/components/discovery/). Z-Wave devices can be connected using a USB stick plugged into the Raspberry Pi and some [configuration in Home Assistant](https://home-assistant.io/docs/z-wave/) (BRUH Automation has a [great video](https://www.youtube.com/watch?v=ajklDCaOGwY) about this). 
 
-My alarm clock was originally inspired by this [thread on the Home Assistant forums](https://community.home-assistant.io/t/creating-a-alarm-clock/410).
+My alarm clock was originally inspired by [this thread on the Home Assistant forums](https://community.home-assistant.io/t/creating-a-alarm-clock/410).
 
 # Interface
 
