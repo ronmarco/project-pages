@@ -165,8 +165,11 @@ script:
 Personalize the above code based on your own configuration:
 
 * Substitute the entity names of your own devices for `light.lux_lamp` and `switch.smart_switch1`.
-* Change the `service:` to fit your needs. Lights can be turned off with `light.turn_off` and entities can be turn on with `homeassistant.turn_off`
-* When editing the `light` service, the `brightness:` parameter sets the brightness of the bulb on a 0-255 scale and `transition:` sets the number of seconds to fade in.
+* Change the `service:` to fit your needs.
+  * Lights can be turned off with `light.turn_off` and entities can be turn on with `homeassistant.turn_off`
+* When editing the `light` service, use `brigthness:` and `transition:` parameters for more customization.
+  * `brightness:` sets the brightness of the bulb on a 0-255 scale.
+  * `transition:` sets the number of seconds to transition to the new state.
 
 # Automation
 
@@ -191,7 +194,7 @@ There are tons of ways to take this alarm clock further, including:
 
 For the interface, you could use Tasker or one of the many [Home Assistant components](https://home-assistant.io/components/#all) to set the alarm clock automatically using information from your phone. 
 
-* For the scripts, you can adjust timing. For example, adding the line `- delay: 00:05:00` before a service will delay it by 5 minutes ([more information here](https://home-assistant.io/docs/scripts/)). 
+For the scripts, you can adjust timing. For example, adding the line `- delay: 00:05:00` before a service will delay it by 5 minutes ([more information here](https://home-assistant.io/docs/scripts/)). 
 
 For the automation, you can create conditions to prevent the alarm from going off on weekends.
 
