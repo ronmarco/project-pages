@@ -61,6 +61,12 @@ input_boolean:
 
 ## Sensor
 
+Now we need to add two new "sensors" that format the input slider values and the current time to make them easier to compare. There are several steps:
+
+1. Locate the `sensor:` line in your `configuration.yaml` file. The code will go below this line.
+2. If there is an exisiting sensor such as `platform: yr`, add a dash and a space before it to begin a list (i.e., it should change to `- platform: yr`).
+3. Copy the code below on the next line:
+
 <div class="highlighter-rouge"><pre class="highlight"><code>  - platform: time_date
     display_options:
       - 'time'
