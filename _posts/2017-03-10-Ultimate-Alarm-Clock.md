@@ -23,11 +23,11 @@ Before you start, you'll need two things:
 1. Raspberry Pi (and SD card and power supply) with Home Assistant installed
 2. Devices to control
 
-You can learn how to install Home Assistant from the [Home Assistant Site](https://home-assistant.io/docs/hassbian/installation/) or this helpful <a href="https://www.youtube.com/watch?v=tCGlQSsQ-Mc" target="_blank">video by BRUH Automation</a>.
+You can learn how to install Home Assistant from the [Home Assistant Site](https://home-assistant.io/docs/hassbian/installation/) or this helpful [video by BRUH Automation](https://www.youtube.com/watch?v=tCGlQSsQ-Mc).
 
-Different devices connect to Home Assistant in different ways. Some devices, such as Philips Hue bulbs and Sonos Speakers, can be automatically detected and configured by the <a href="https://home-assistant.io/components/discovery/" target="_blank">discovery component</a>. Z-Wave devices can be connected using a USB stick plugged into the Raspberry Pi and some <a href="https://home-assistant.io/docs/z-wave/" target="_blank">configuration in Home Assistant</a> (BRUH Automation has a <a href="https://www.youtube.com/watch?v=ajklDCaOGwY" target="_blank">great video</a> about this). 
+Different devices connect to Home Assistant in different ways. Some devices, such as Philips Hue bulbs and Sonos Speakers, can be automatically detected and configured by the [discovery component](https://home-assistant.io/components/discovery/). Z-Wave devices can be connected using a USB stick plugged into the Raspberry Pi and some [configuration in Home Assistant](https://home-assistant.io/docs/z-wave/) (BRUH Automation has a [great video](https://www.youtube.com/watch?v=ajklDCaOGwY) about this). 
 
-My alarm clock was originally inspired by <a href="https://community.home-assistant.io/t/creating-a-alarm-clock/410" target="_blank">this thread on the Home Assistant forums</a>.
+My alarm clock was originally inspired by this [thread on the Home Assistant forums](https://community.home-assistant.io/t/creating-a-alarm-clock/410).
 
 # Interface
 
