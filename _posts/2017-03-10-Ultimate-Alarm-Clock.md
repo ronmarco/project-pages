@@ -193,4 +193,4 @@ For the scripts, you can adjust timing. For example, adding `- delay: 00:05:00` 
 
 For the automation, you can create conditions to prevent the alarm from going off on weekends.
 
-There are many more. <a href="https://community.home-assistant.io/t/creating-a-alarm-clock/410" target="_blank">This thread on the Home Assistant forums</a> inspired my alarm clock and has many additional great ideas.
+<a href="https://community.home-assistant.io/t/creating-a-alarm-clock/410" target="_blank">This thread on the Home Assistant forums</a> inspired my alarm clock and has many more great ideas.
