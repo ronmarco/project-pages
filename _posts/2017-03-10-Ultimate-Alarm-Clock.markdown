@@ -51,6 +51,8 @@ input_slider:
 
 ## Input Boolean
 
+An input boolean is an easy way to make an on/off switch for the alarm:
+
 ```
 input_boolean:
   alarm_clock_status:
