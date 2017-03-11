@@ -63,7 +63,7 @@ input_boolean:
 
 Now we need to add new "sensors" that format the input slider values and the current time to make them easier to compare. There are several steps:
 
-1. Locate the `sensor:` line in your **configuration.yaml** file. The new code will go below this line.
+1. Locate the `sensor:` line in your **configuration.yaml** file. The code will go below this line.
 2. If there is an exisiting sensor such as `platform: yr`, add a dash and a space before it to begin a list (i.e., it should change to `- platform: yr`).
 3. Paste the code for the new sensors on the next line. The code is shown below:
 
@@ -143,6 +143,8 @@ This next code hides "sensors" that aren't helpful to see and gives icons and be
 
 # Script
 
+Now we'll write the script that will tell Home Assistant what to do when the alarm goes off:
+
 ```
 script:
   wake_up:
@@ -155,6 +157,12 @@ script:
       - service: homeassistant.turn_off
         entity_id: switch.smart_switch1
 ```
+
+Personalize the above code based on your own configuration:
+
+* Substitute the entitiy names of your own devices for `light.lux_lamp` and `switch.smart_switch1`.
+* Change the `service:` to fit your needs. Lights can be turned off with `light.turn_off` and entities can be turn on with `homeassistant.turn_off`
+* When editing the `light` service, the `brightness:` parameter sets the brightness of the bulb from a 0-255 scale and `transition:` sets the number of seconds to fade in.
 
 # Automation
 
