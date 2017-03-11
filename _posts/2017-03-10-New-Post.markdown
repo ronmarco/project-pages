@@ -134,7 +134,6 @@ script:
 
 # Automation
 
-```
 <div class=""highlighter-rouge""><pre class=""highlight""><code>  - platform: time_date
     display_options:
       - 'time'
@@ -161,7 +160,6 @@ script:
             0
           {<code></code>%- endif -%}
             {<code></code>{ states.sensor.alarm_clock_minute.state }}</code></pre></div>
-```
 
 # Next Steps
 
