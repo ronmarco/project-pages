@@ -75,7 +75,7 @@ input_boolean:
             {<code></code>{ states.sensor.alarm_clock_minute.state }}</code></pre>
 </div>
 
-# Group
+## Group
 
 ```
 group:
@@ -89,9 +89,79 @@ group:
       - input_boolean.alarm_clock_status
 ```
 
+## Customize
+
+```
+  customize:
+    # Alarm clock sensors
+    sensor.time:
+      hidden: true
+    sensor.alarm_clock_hour:
+      hidden: true
+    sensor.alarm_clock_minute:
+      hidden: true
+    sensor.alarm_clock_time_long:
+      hidden: true
+    sensor.alarm_clock_time:
+      friendly_name: 'Alarm Clock Setting'
+      icon: mdi:alarm
+    # Alarm clock inputs
+    input_slider.alarm_clock_hour:
+      friendly_name: 'Hour'
+      icon: mdi:timer
+    input_slider.alarm_clock_minute:
+      friendly_name: 'Minute'
+      icon: mdi:timer
+    input_boolean.alarm_clock_status:
+      friendly_name: 'Alarm Clock Status'
+      icon: mdi:alarm-check
+```
+
 # Script
 
+```
+script:
+  wake_up:
+    sequence:
+      - service: light.turn_on
+        data: 
+          entity_id: light.lux_lamp
+          brightness: 255
+          transition: 10
+      - service: homeassistant.turn_off
+        entity_id: switch.smart_switch1
+```
+
 # Automation
+
+```
+<div class=""highlighter-rouge""><pre class=""highlight""><code>  - platform: time_date
+    display_options:
+      - 'time'
+  - platform: template
+    sensors:
+      alarm_clock_hour:
+        value_template: '{<code></code>{ states.input_slider.alarm_clock_hour.state | int }}'
+      alarm_clock_minute:
+        value_template: '{<code></code>{ states.input_slider.alarm_clock_minute.state | int }}'
+      alarm_clock_time:
+        value_template: >-
+          {<code></code>{ states.sensor.alarm_clock_hour.state }}:
+          {<code></code>%- if states.sensor.alarm_clock_minute.state|length == 1 -%}
+            0
+          {<code></code>%- endif -%}
+            {<code></code>{ states.sensor.alarm_clock_minute.state }}
+      alarm_clock_time_long:
+        value_template: >-
+          {<code></code>% if states.sensor.alarm_clock_hour.state|length == 1 -%}
+            0
+          {<code></code>%- endif -%}
+            {<code></code>{ states.sensor.alarm_clock_hour.state }}:
+          {<code></code>%- if states.sensor.alarm_clock_minute.state|length == 1 -%}
+            0
+          {<code></code>%- endif -%}
+            {<code></code>{ states.sensor.alarm_clock_minute.state }}</code></pre></div>
+```
 
 # Next Steps
 
