@@ -20,8 +20,8 @@ See how home automation can get you up in the morning. Watch the YouTube video h
 # Intro
 
 Before you start, you'll need two things:
-1. Raspberry Pi (and SD card and power supply) with Home Assistant installed.
-2. Devices to control.
+1. Raspberry Pi (and SD card and power supply) with Home Assistant installed
+2. Devices to control
 
 # Interface
 
