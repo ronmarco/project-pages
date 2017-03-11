@@ -147,8 +147,6 @@ script:
     action:
       service: script.wake_up</code></pre></div>
 
-`{%`
-
 # Next Steps
 
 ## References
