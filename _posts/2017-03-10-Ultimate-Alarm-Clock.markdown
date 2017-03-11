@@ -8,7 +8,7 @@ category:  ha
 ---
 <!-- Start Writing Below in Markdown -->
 
-See how home automation can help you get up in the morning. Watch the YouTube video here:
+See how home automation can get you up in the morning. Watch the YouTube video here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qJ8ZoJuuZVA" frameborder="0" allowfullscreen></iframe>
 
@@ -18,6 +18,10 @@ See how home automation can help you get up in the morning. Watch the YouTube vi
 {:toc}
 
 # Intro
+
+Before you start, you'll need two things:
+1. Raspberry Pi (and SD card and power supply) with Home Assistant installed.
+2. Devices to control.
 
 # Interface
 
