@@ -106,8 +106,8 @@ Now we need to add new "sensors" that format the input slider values and the cur
 If you're curious, here's the purpose of each template sensor:
 * `alarm_clock_hour` formats the hour slider output as an integer to remove the decimal point and zeros
 * `alarm_clock_minute` does the same for the minute slider
-* `alarm_clock_time` combines the hour slider and the minute slider into a single alarm clock setting
-  * The complex-looking code adds a 0 if there is only one minute digit (e.g., so instead of reading 6:5, it reads 6:05)
+* `alarm_clock_time` combines the hour slider and the minute slider into a single alarm clock setting that will be displayed in Home Assistant
+  * The complex-looking code adds a 0 if there is only one minute digit (e.g., instead of reading 6:5, it reads 6:05)
 * `alarm_clock_time_long` creates a version of `alarm_clock_time` that always has two digits for the hour
   * This format is needed to compare the alarm clock setting to the actual time from the `time_date` sensor 
 
