@@ -55,7 +55,7 @@ input_slider:
     step: 5
 ```
 
-Notes: Unless otherwise noted, paste all the code to the bottom of your **configuration.yaml** file. Also, YAML is very picky about spaces. If your code is not working use [YAML Lint](http://www.yamllint.com/) to check if it is valid. 
+Notes: Unless otherwise noted, paste all the code to the bottom of your **configuration.yaml** file. Also, YAML is very picky about spaces. If your code isn't working use [YAML Lint](http://www.yamllint.com/) to check if it's valid. 
 
 ## Input Boolean
 
@@ -103,7 +103,7 @@ Now we need to add new "sensors" that format the input slider values and the cur
             {<code></code>{ states.sensor.alarm_clock_minute.state }}</code></pre>
 </div>
 
-If you're curious, here's what the templeate sensors do:
+If you're curious, here's the purpose of each template sensor:
 * `alarm_clock_hour` formats the hour slider output as an integer to remove the decimal point and zeros
 * `alarm_clock_minute` does the same for the minute slider
 * `alarm_clock_time` combines the hour slider and the minute slider into a single alarm clock setting
