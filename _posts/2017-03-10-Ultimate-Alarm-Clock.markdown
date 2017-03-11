@@ -25,9 +25,9 @@ Before you start, you'll need two things:
 
 You can learn how to install Home Assistant from the <a href="https://home-assistant.io/docs/hassbian/installation/" target="_blank">Home Assistant Site</a> or this helpful <a href="https://www.youtube.com/watch?v=tCGlQSsQ-Mc" target="_blank">video by BRUH Automation</a>.
 
-Different devices connect to Home Assistant in different ways. Some devices such as Philips Hue bulbs and Sonos Speakers can be automatically detected and configured by the <a href="https://home-assistant.io/components/discovery/" target="_blank">discovery component</a>. Z-Wave devices can be connected using a USB stick plugged into the Raspberry Pi and some <a href="https://home-assistant.io/docs/z-wave/" target="_blank">configuration in Home Assistant</a> (BRUH Automation has a <a href="https://www.youtube.com/watch?v=ajklDCaOGwY" target="_blank">great video</a> about this as well). 
+Different devices connect to Home Assistant in different ways. Philips Hue bulbs and Sonos Speakers can be automatically detected and configured by the <a href="https://home-assistant.io/components/discovery/" target="_blank">discovery component</a>. Z-Wave devices can be connected using a USB stick plugged into the Raspberry Pi and some <a href="https://home-assistant.io/docs/z-wave/" target="_blank">configuration in Home Assistant</a> (BRUH Automation has a <a href="https://www.youtube.com/watch?v=ajklDCaOGwY" target="_blank">great video</a> about this). 
 
-I was originally inspired by <a href="https://community.home-assistant.io/t/creating-a-alarm-clock/410" target="_blank">this thread on the Home Assistant forums</a>.
+My alarm clock was originally inspired by <a href="https://community.home-assistant.io/t/creating-a-alarm-clock/410" target="_blank">this thread on the Home Assistant forums</a>.
 
 # Interface
 
