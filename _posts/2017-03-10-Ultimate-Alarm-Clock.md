@@ -39,7 +39,7 @@ The interface will look like this:
 
 ## Input Sliders
 
-We use input sliders to set the hour and minute of the alarm clock. See below for code to paste in your **configuration.yaml** file:
+We use input sliders to set the hour and minute of the alarm clock. See below for code to paste at the bottom of your **configuration.yaml** file:
 
 ```
 input_slider:
@@ -55,7 +55,7 @@ input_slider:
     step: 5
 ```
 
-Note: YAML is very picky about spaces. If your code is not working use [YAML Lint](http://www.yamllint.com/) to check if it is valid. 
+Notes: Unless otherwise instructed, you can paste all the code to the bottom of your **configuration.yaml** file. Also, YAML is very picky about spaces. If your code is not working use [YAML Lint](http://www.yamllint.com/) to check if it is valid. 
 
 ## Input Boolean
 
@@ -129,7 +129,7 @@ group:
 
 ## Customize
 
-This next code hides "sensors" that aren't helpful to see and gives icons and better-looking names to the ones we do want to see. We have to scroll up to the top of the **configuration.yaml** file to paste code under `homeassistant:`.
+This next code hides "sensors" that aren't helpful to see and gives icons and better-looking names to the ones we do want to see. We have to scroll up to the top of the **configuration.yaml** file to paste the code under `homeassistant:`. A good place is right below the `time_zone:` line.
 
 ```
   customize:
