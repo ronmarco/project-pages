@@ -162,9 +162,11 @@ Personalize the above code based on your own configuration:
 
 * Substitute the entitiy names of your own devices for `light.lux_lamp` and `switch.smart_switch1`.
 * Change the `service:` to fit your needs. Lights can be turned off with `light.turn_off` and entities can be turn on with `homeassistant.turn_off`
-* When editing the `light` service, the `brightness:` parameter sets the brightness of the bulb from a 0-255 scale and `transition:` sets the number of seconds to fade in.
+* When editing the `light` service, the `brightness:` parameter sets the brightness of the bulb on a 0-255 scale and `transition:` sets the number of seconds to fade in.
 
 # Automation
+
+This last step ties the interface and the scripts together. The automation detects a trigger, such as being a certain time of day, and then runs a action, in this case `script.wake_up`. The `condition:` prevents the alarm clock from going off when it was turned off in the interface with `input_boolean.alarm_clock_status`.
 
 <div class="highlighter-rouge"><pre class="highlight"><code>automation:
   - alias: 'Hue light on gradually with alarm'
