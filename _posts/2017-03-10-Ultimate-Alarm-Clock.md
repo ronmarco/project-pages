@@ -111,7 +111,6 @@ If you're curious, here's what each sensor does:
 * `alarm_clock_time_long` creates a version of `alarm_clock_time` that always has two digits for the hour
   * This format is needed to compare the alarm clock setting to the actual time from the `time_date` sensor 
 
-
 ## Group
 
 Now that we have the inputs created, we'll make the interface a little more organized. This code groups the alarm clock inputs into a single card in Home Assistant:
