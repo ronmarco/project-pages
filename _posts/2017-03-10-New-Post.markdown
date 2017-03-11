@@ -134,7 +134,7 @@ script:
 
 # Automation
 
-<div class=""highlighter-rouge""><pre class=""highlight""><code>automation:
+<div class="highlighter-rouge"><pre class="highlight"><code>automation:
   - alias: 'Hue light on gradually with alarm'
     hide_entity: False
     trigger:
