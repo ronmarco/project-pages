@@ -10,7 +10,7 @@ category:  ha
 
 See how home automation can get you up in the morning. Watch the YouTube video here:
 
-<iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/qJ8ZoJuuZVA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/qJ8ZoJuuZVA" frameborder="0" allowfullscreen></iframe>
 
 <h1 id="TOC">Table of Contents</h1>
 
