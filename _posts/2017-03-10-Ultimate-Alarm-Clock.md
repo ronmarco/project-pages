@@ -170,7 +170,7 @@ Personalize the above code based on your own configuration:
 * When editing the `light` service, use `brightness:` and `transition:` attributes for more customization.
   * `brightness:` sets the brightness of the bulb on a 0-255 scale.
   * `transition:` sets the number of seconds to transition to the new state.
-  * Other attributes are listed on the [Home Assistant site (link)](https://home-assistant.io/components/light/).
+  * Other light attributes are listed on the [Home Assistant site (link)](https://home-assistant.io/components/light/).
 
 # Automation
 
