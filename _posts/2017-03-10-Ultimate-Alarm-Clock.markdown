@@ -17,6 +17,8 @@ See how home automation can help you get up in the morning. Watch the YouTube vi
 * TOC
 {:toc}
 
+{:toc}
+
 # Intro
 
 # Interface
