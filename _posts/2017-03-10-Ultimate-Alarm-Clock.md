@@ -51,6 +51,8 @@ input_slider:
     step: 5
 ```
 
+Note: YAML is very picky about spaces. If your code is not working use [YAML Lint](http://www.yamllint.com/) to check if it is valid. 
+
 ## Input Boolean
 
 An input boolean is an easy way to make an on/off switch for the alarm:
@@ -189,7 +191,7 @@ There are tons of ways to take this alarm clock further, including:
 
 For the interface, you could use Tasker or one of the many [Home Assistant components](https://home-assistant.io/components/#all) to set the alarm clock automatically using information from your phone. 
 
-For the scripts, you can adjust timing. For example, adding the line `- delay: 00:05:00` before a service will delay it by 5 minutes ([more information here](https://home-assistant.io/docs/scripts/)). 
+* For the scripts, you can adjust timing. For example, adding the line `- delay: 00:05:00` before a service will delay it by 5 minutes ([more information here](https://home-assistant.io/docs/scripts/)). 
 
 For the automation, you can create conditions to prevent the alarm from going off on weekends.
 
