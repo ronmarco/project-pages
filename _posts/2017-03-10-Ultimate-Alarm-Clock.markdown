@@ -12,8 +12,7 @@ See how home automation can help you get up in the morning. Watch the YouTube vi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qJ8ZoJuuZVA" frameborder="0" allowfullscreen></iframe>
 
-# Table of Contents
-
+* TOC
 {:toc}
 
 # Intro
