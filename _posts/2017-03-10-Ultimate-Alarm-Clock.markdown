@@ -23,6 +23,10 @@ Before you start, you'll need two things:
 1. Raspberry Pi (and SD card and power supply) with Home Assistant installed
 2. Devices to control
 
+You can learn how to install Home Assistant from the <a href="https://home-assistant.io/docs/hassbian/installation/" target="_blank">Home Assistant Site</a> or this helpful <a href="https://www.youtube.com/watch?v=tCGlQSsQ-Mc" target="_blank">video by BRUH Automation</a>.
+
+The way you connect devices to Home Assistant varies. Some devices such as Philips Hue bulbs and Sonos Speakers can be automatically detected and configured by the <a href="https://home-assistant.io/components/discovery/" target="_blank">discovery component</a>. Z-Wave devices can connected using a USB stick plugged into the Raspberry Pi and some <a href="https://home-assistant.io/docs/z-wave/" target="_blank">configuration in Home Assistant</a> (BRUH Automation has a <a href="https://www.youtube.com/watch?v=ajklDCaOGwY" target="_blank">great video</a> about that as well). 
+
 # Interface
 
 ## Input Sliders
