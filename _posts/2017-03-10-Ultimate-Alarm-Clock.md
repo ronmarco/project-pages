@@ -205,7 +205,7 @@ This last step ties the interface and the scripts together:
     action:
       service: script.wake_up</code></pre></div>
 
-The automation detects a trigger, such as being a certain time of day, and then runs an action, in this case `script.wake_up`. The `condition:` prevents the alarm clock from going off when is turned off in the interface (i.e., the state of `input_boolean.alarm_clock_status` is "off").
+The automation detects a trigger, such as being a certain time of day, and then runs an action, in this case `script.wake_up`. The `condition:` prevents the alarm clock from going off when it is turned off in the interface (i.e., the state of `input_boolean.alarm_clock_status` is "off").
 
 # Next Steps
 
