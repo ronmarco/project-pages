@@ -37,6 +37,8 @@ See below for what the itnerface will look like:
 
 ![Interface](http://ronmar.co/img/170310_alarm_clock_interface.jpg)
 
+[Interface](http://ronmar.co/img/170310_alarm_clock_interface.jpg)
+
 ## Input Sliders
 
 We use input sliders to set the hour and minute of the alarm clock. See below for code to paste in your **configuration.yaml** file:
