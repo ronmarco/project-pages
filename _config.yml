@@ -10,7 +10,7 @@ url: "https://ronmar.co"
 baseurl: ""
 header-img: img/black-floorplan-v170310.gif
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/RM-logo-light.png
+logo: /img/logos/RM-logo-light.png
 
 # Tertiary Parameters
 github_username:  ronmarco
