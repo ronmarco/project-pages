@@ -10,11 +10,11 @@ url: "https://ronmarco.github.io"
 baseurl: "/site"
 header-img: img/black-floorplan-v170310.gif
 headercolor: "#FFFFFF"
-logo: /site/img/logos/RM-logo-light.png
+logo: /project-pages/img/logos/RM-logo-light.png
 
 # Tertiary Parameters
 github_username:  ronmarco
-project_repository: site
+project_repository: project-pages
 disqus_shortname: ronmar
 youtube_channel: UCnpFW_aJtUsLVaApE9sOnMg
 twitter_username: RonMarTech
@@ -43,7 +43,7 @@ defaults:
 # Prose Settings
 prose:
   ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: 'http://ronmarco.github.io/site/'
+  siteurl: 'http://ronmarco.github.io/project-pages/'
   ispp: true
   media: 'img'
   metadata:
@@ -108,7 +108,7 @@ prose:
       - name: "horizontal"
         field:
           element: "hidden"
-          value: </section></section><section markdown="1" data-background="http://projectpages.github.io/site/img/slidebackground.png"><section markdown="1">
+          value: </section></section><section markdown="1" data-background="http://projectpages.github.io/project-pages/img/slidebackground.png"><section markdown="1">
       - name: "vertical"
         field:
           element: "hidden"
@@ -116,7 +116,7 @@ prose:
       - name: "slideinit"
         field:
           element: "hidden"
-          value: <section markdown="1" data-background="http://projectpages.github.io/site/img/slidebackground.png"><section markdown="1">
+          value: <section markdown="1" data-background="http://projectpages.github.io/project-pages/img/slidebackground.png"><section markdown="1">
       - name: "theme"
         field:
           element: "select"
