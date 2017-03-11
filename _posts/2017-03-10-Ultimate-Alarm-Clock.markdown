@@ -12,6 +12,8 @@ See how home automation can help you get up in the morning. Watch the YouTube vi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qJ8ZoJuuZVA" frameborder="0" allowfullscreen></iframe>
 
+<h1 id="TOC">Table of Contents</h1>
+
 * TOC
 {:toc}
 
