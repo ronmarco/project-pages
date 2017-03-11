@@ -72,7 +72,7 @@ input_boolean:
 Now we need to add new "sensors" that format the input slider values and the current time to make them easier to compare. There are several steps:
 
 1. Locate the `sensor:` line in your **configuration.yaml** file. The code will go below this line.
-2. If there is an existing sensor such as `platform: yr`, add a dash and a space before it to begin a list (i.e., it should change to `- platform: yr`).
+2. If there is one existing sensor such as `platform: yr`, add a dash and a space before it to begin a list (i.e., it should change to `- platform: yr`).
 3. Paste the code for the new sensors on the next line. The code is shown below:
 
 <div class="highlighter-rouge"><pre class="highlight"><code>  - platform: time_date
@@ -102,6 +102,15 @@ Now we need to add new "sensors" that format the input slider values and the cur
           {<code></code>%- endif -%}
             {<code></code>{ states.sensor.alarm_clock_minute.state }}</code></pre>
 </div>
+
+Here's what each sensor does:
+* `alarm_clock_hour` formats the hour slider output as an integer to remove the decimal point and zeros
+* `alarm_clock_minute` does the same for the minute slider
+* `alarm_clock_time` combines the hour slider and the minute slider into a single alarm clock setting
+  * The complex-looking code adds a 0 if there is only one minute digit (e.g., so instead of reading 6:5, it reads 6:05)
+* 'alarm_clock_time_long' creates a version of `alarm_clock_time` that always has two digits for the hour
+  * This format is needed to compare the alarm clock setting to the actual time from the `time_date` sensor 
+
 
 ## Group
 
