@@ -33,6 +33,10 @@ My alarm clock was inspired by [this thread on the Home Assistant forums](https:
 
 The first step is to create an alarm clock interface in Home Assistant. The interface is used to set the time that the alarm goes off. Once the time is set, you won't have to touch it again.
 
+See below for what the itnerface will look like:
+
+![Interface](http://ronmar.co/img/170310_alarm_clock_interface.jpg)
+
 ## Input Sliders
 
 We use input sliders to set the hour and minute of the alarm clock. See below for code to paste in your **configuration.yaml** file:
