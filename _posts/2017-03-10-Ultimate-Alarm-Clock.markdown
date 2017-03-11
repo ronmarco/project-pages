@@ -150,33 +150,3 @@ script:
 # Next Steps
 
 ## References
-
-## Headers
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-## Styling
-
-**Bold**
-
-*Italics*
-
-***Bold and Italics***
-
-## Lists
-
-1. Item 1
-
-2. Item 2
-
-* Unordered Item
-
-  * Sub Item 1
-
-    1. **Bold** Sub Sub Ordered Item
-
-## Links
