@@ -189,7 +189,7 @@ There are tons of ways to take this alarm clock further, including:
 
 For the interface, you could use Tasker or one of the many <a href="https://home-assistant.io/components/#all" target="_blank">Home Assistant components</a> to set the alarm clock automatically using information from your phone. 
 
-For the scripts, you can adjust timing. For example, by adding `- delay: 00:05:00`, you can delay an service by 5 minutes (<a href="https://home-assistant.io/docs/scripts/" target="_blank">more information here</a>). 
+For the scripts, you can adjust timing. For example, adding `- delay: 00:05:00` will delay a service by 5 minutes (<a href="https://home-assistant.io/docs/scripts/" target="_blank">more information here</a>). 
 
 For the automation, you can create conditions to prevent the alarm from going off on weekends.
 
