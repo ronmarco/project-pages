@@ -71,7 +71,7 @@ input_boolean:
 
 Now we need to add new "sensors" that format the current time and input slider values to make them easier to compare. There are several steps:
 
-1. Locate the `sensor:` line in your **configuration.yaml** file. The code will go below this line.
+1. Locate the `sensor:` line in your **configuration.yaml** file. The code will go below this heading.
 2. If there is one existing sensor such as `platform: yr`, add a dash and a space before it to begin a list (i.e., it should change to `- platform: yr`).
 3. Paste the code for the new sensors on the next line. The code is shown below:
 
