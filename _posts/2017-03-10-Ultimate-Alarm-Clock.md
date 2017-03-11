@@ -190,7 +190,7 @@ Personalize the above code for your own configuration:
 
 # Automation
 
-This last step ties the interface and the scripts together. The automation detects a trigger, such as being a certain time of day, and then runs an action, in this case `script.wake_up`. The `condition:` prevents the alarm clock from going off when `input_boolean.alarm_clock_status` is turned off in the interface.
+This last step ties the interface and the scripts together:
 
 <div class="highlighter-rouge"><pre class="highlight"><code>automation:
   - alias: 'Hue light on gradually with alarm'
@@ -204,6 +204,8 @@ This last step ties the interface and the scripts together. The automation detec
       state: 'on'
     action:
       service: script.wake_up</code></pre></div>
+
+The automation detects a trigger, such as being a certain time of day, and then runs an action, in this case `script.wake_up`. The `condition:` prevents the alarm clock from going off when is turned off in the interface (i.e., the state of `input_boolean.alarm_clock_status` is "off").
 
 # Next Steps
 
