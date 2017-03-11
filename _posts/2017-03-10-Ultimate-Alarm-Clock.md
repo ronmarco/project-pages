@@ -129,7 +129,7 @@ group:
 
 ## Customize
 
-This next code hides "sensors" that aren't helpful to see and gives icons and better-looking names to the ones we do want to see. We have to scroll up to the top of the **configuration.yaml** file to paste the code under `homeassistant:`. A good place is right below the `time_zone:` line.
+This next code hides "sensors" that aren't helpful to see and gives icons and better-looking names to the ones we do want to see. We have to scroll up to the top of the **configuration.yaml** file to paste the code under `homeassistant:`. A good place is right below the `time_zone:` line if you haven't made many changes to your configuration.
 
 ```
   customize:
