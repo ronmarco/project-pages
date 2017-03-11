@@ -14,9 +14,6 @@ See how home automation can help you get up in the morning. Watch the YouTube vi
 
 # Table of Contents
 
-* TOC
-{:toc}
-
 {:toc}
 
 # Intro
