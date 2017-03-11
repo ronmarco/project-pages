@@ -165,8 +165,8 @@ script:
 Personalize the above code based on your own configuration:
 
 * Substitute the entity names of your own devices for `light.lux_lamp` and `switch.smart_switch1`.
-* Change the `service:` to fit your needs.
-  * Lights can be turned off with `light.turn_off` and entities can be turn on with `homeassistant.turn_off`
+* Adjust the `service:` to fit your needs.
+  * E.g., lights can be turned off with `light.turn_off` and switches can be turned on with `homeassistant.turn_on`
 * When editing the `light` service, use `brightness:` and `transition:` attributes for more customization.
   * `brightness:` sets the brightness of the bulb on a 0-255 scale.
   * `transition:` sets the number of seconds to transition to the new state.
