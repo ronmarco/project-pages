@@ -183,4 +183,10 @@ This last step ties the interface and the scripts together. The automation detec
 
 # Next Steps
 
-## References
+There are tons of ways to take this alarm clock futher, including:
+
+* Add more devices to the script
+* For the iterface, you could use Tasker or one of the many <a href="https://home-assistant.io/components/#all" target="_blank">Home Assistant components</a> to set the alarm clock automatically using information from your phone. 
+* For the scripts, you can adjust timing. For example, by adding `- delay: 00:05:00`, you can delay an service by 5 minutes (<a href="https://home-assistant.io/docs/scripts/" target="_blank">more information here</a>). 
+* For the automation, you can create conditions to prevent the alarm from going off on weekends.
+* There are many more. <a href="https://community.home-assistant.io/t/creating-a-alarm-clock/410" target="_blank">This thread on the Home Assistant forums</a> inspired my alarm clock and has many additional great ideas.
