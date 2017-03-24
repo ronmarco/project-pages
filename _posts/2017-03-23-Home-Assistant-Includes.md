@@ -82,8 +82,6 @@ To place the yaml code in a sub-folder, all you have to do is:
 **Step 2:** Add the folder name to the include code. The line in `configuration.yaml` should read:
 
 ```
-## Weather sensor
-
 group: !include include/groups.yaml
 ```
 
@@ -93,9 +91,7 @@ When your configuration gets very complex, it can be helpful to further split th
 
 I started with this code:
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## Alarm clock sensor
-
-Sensor:
+<div class="highlighter-rouge"><pre class="highlight"><code>Sensor:
   - platform: yr
   - platform: time_date
     display_options:
@@ -132,12 +128,16 @@ Sensor:
 I'll create `weather.yaml` for the sensor related to a weather forecast:
 
 ```
+## Weather sensor
+
   - platform: yr
 ```
 
 The rest of the code is for an alarm clock. I'll add it to it's own `alarm-clock.yaml` file:
 
-<div class="highlighter-rouge"><pre class="highlight"><code>  - platform: time_date
+<div class="highlighter-rouge"><pre class="highlight"><code>## Alarm clock sensor
+
+  - platform: time_date
     display_options:
       - 'time'
   - platform: template
