@@ -47,7 +47,7 @@ group:
       - input_boolean.alarm_clock_status
 ```
 
-1. I create a new groups.yaml file with all the code after the header:
+**Step 1:** I create a new groups.yaml file with all the code after the header:
 <div>   1. I add</div>
 
 ```
