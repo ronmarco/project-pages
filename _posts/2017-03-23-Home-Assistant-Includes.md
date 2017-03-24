@@ -48,6 +48,7 @@ group:
 ```
 
 1. I create a new groups.yaml file with all the code after the header:
+<div>   1. I add</div>
 
 ```
 # Alarm clock
@@ -63,7 +64,7 @@ group:
 
 Note: I added a comment at the top so I can easily tell the purpose of the file.
 
-<div>2. I add ``!include groups.yaml` to the groups section header like this:</div>
+<div>   2. I add ``!include groups.yaml` to the groups section header like this:</div>
 
 ```
 group: !include groups.yaml
