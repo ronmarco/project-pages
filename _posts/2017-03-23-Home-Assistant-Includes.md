@@ -121,7 +121,7 @@ I started with this code:
             {<code></code>{ states.sensor.alarm_clock_minute.state }}</code></pre>
 </div>
 
-**Step 1:** Create a new folder in the `/homeassistant/` folder. For this exmaple, I'll use a folder named `sensor`.
+**Step 1:** Create a new folder in the `/homeassistant/` folder. For this example, I'll use a folder named `sensor`.
 
 **Step 2:** Add the code to include as yaml files in the new folder. Name the yaml files anything you want; Home Assistant only needs the folder name.
 
@@ -133,7 +133,7 @@ I'll create `weather.yaml` for the sensor related to a weather forecast:
   - platform: yr
 ```
 
-The rest of the code is for an alarm clock. I'll add it to it's own `alarm-clock.yaml` file:
+The rest of the code is for an alarm clock. I'll add it to its own `alarm-clock.yaml` file:
 
 <div class="highlighter-rouge"><pre class="highlight"><code>## Alarm clock sensor
 
@@ -171,6 +171,6 @@ The rest of the code is for an alarm clock. I'll add it to it's own `alarm-clock
 sensor: !include_dir_merge_list sensor/
 ```
 
-Note: the sensor code is a 'list' becuase the code in each include begins with a dash (`-`). If you are including code that does not begin with a dash, use the word named (i.e.,`!include_dir_merge_named`). The `configuration:` section is not a "list" for example.
+Note: the sensor code is a 'list' because the code in each include begins with a dash (`-`). If you are including code that does not begin with a dash, use the word named (i.e.,`!include_dir_merge_named`). The `configuration:` section is not a "list" for example.
 
 I hope this helps!
