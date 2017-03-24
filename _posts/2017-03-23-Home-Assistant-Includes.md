@@ -73,7 +73,7 @@ That's it!
 
 # Includes in sub-folder
 
-If you split each section in the configuation file, there would be a lot of yaml filesin one folder! Fortuantely it's easy to organize with sub-folders in Home Assistant.
+If you split each section in the configuration, there would be a lot of yaml files in one folder! Fortunately, it's easy to organize with sub-folders in Home Assistant.
 
 To place the yaml code in a sub-folder, all you have to do is:
 
