@@ -63,7 +63,7 @@ group:
 
 Note: I added a comment at the top so I can easily tell the purpose of the file.
 
-2. I add ``!include groups.yaml` to the groups section header like this:
+<div>2. I add ``!include groups.yaml` to the groups section header like this:</div>
 
 ```
 group: !include groups.yaml
@@ -73,7 +73,7 @@ That's it!
 
 # Includes in a sub-folder
 
-If you did this for every header in the configuation file, there would be a lot of yaml files! Fortuantely it's easy to add sub-folders in Home Assistant.
+If you split each section in the configuation file, there would be a lot of yaml filesin one folder! Fortuantely it's easy to organize with sub-folders in Home Assistant.
 
 To place the yaml code in a sub-folder, all you have to do is:
 1. Move the `groups.yaml` file into a sub-folder within the `/homeassistant/` folder
