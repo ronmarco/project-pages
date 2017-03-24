@@ -76,7 +76,9 @@ That's it!
 If you split each section in the configuation file, there would be a lot of yaml filesin one folder! Fortuantely it's easy to organize with sub-folders in Home Assistant.
 
 To place the yaml code in a sub-folder, all you have to do is:
+
 **Step 1:** Move the `groups.yaml` file into a sub-folder within the `/homeassistant/` folder
+
 **Step 2:** Add the folder name to the include code. The line in `configuration.yaml` should read:
 
 ```
@@ -120,6 +122,7 @@ I started with this code:
 </div>
 
 **Step 1:** Create a new folder in the `/homeassistant/` folder. For this exmaple, I'll use a folder named `sensor`.
+
 **Step 2:** Add the code to include as yaml files in the new folder. Name the yaml files anything you want; Home Assistant only needs the folder name.
 
 I'll create `weather.yaml` for the sensor related to a weather forecast:
