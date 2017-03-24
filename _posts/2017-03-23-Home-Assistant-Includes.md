@@ -47,8 +47,7 @@ group:
       - input_boolean.alarm_clock_status
 ```
 
-**Step 1:** I create a new groups.yaml file with all the code after the header:
-<div>   1. I add</div>
+**Step 1:** Create a new groups.yaml file with all the code after the header:
 
 ```
 # Alarm clock
@@ -64,7 +63,7 @@ group:
 
 Note: I added a comment at the top so I can easily tell the purpose of the file.
 
-<div>   2. I add ``!include groups.yaml` to the groups section header like this:</div>
+**Step 2:** Add `!include groups.yaml` to the groups section header like this:
 
 ```
 group: !include groups.yaml
@@ -77,8 +76,8 @@ That's it!
 If you split each section in the configuation file, there would be a lot of yaml filesin one folder! Fortuantely it's easy to organize with sub-folders in Home Assistant.
 
 To place the yaml code in a sub-folder, all you have to do is:
-1. Move the `groups.yaml` file into a sub-folder within the `/homeassistant/` folder
-2. Add the folder name to the include code. The line in `configuration.yaml` should read:
+**Step 1:** Move the `groups.yaml` file into a sub-folder within the `/homeassistant/` folder
+**Step 2:** Add the folder name to the include code. The line in `configuration.yaml` should read:
 
 ```
 group: !include include/groups.yaml
@@ -120,8 +119,8 @@ I started with this code:
             {<code></code>{ states.sensor.alarm_clock_minute.state }}</code></pre>
 </div>
 
-1. Create a new folder in the `/homeassistant/` folder. For this exmaple, I'll use a folder named `sensor`.
-2. Add the code to include as yaml files in the new folder. Name the yaml files anything you want; Home Assistant only needs the folder name.
+**Step 1:** Create a new folder in the `/homeassistant/` folder. For this exmaple, I'll use a folder named `sensor`.
+**Step 2:** Add the code to include as yaml files in the new folder. Name the yaml files anything you want; Home Assistant only needs the folder name.
 
 I'll create `weather.yaml` for the sensor related to a weather forecast:
 
@@ -159,8 +158,7 @@ The rest of the code is for an alarm clock. I'll add it to it's own `alarm-clock
             {<code></code>{ states.sensor.alarm_clock_minute.state }}</code></pre>
 </div>
 
-3. Add the following code to `configuration.yaml` file.
-
+**Step 3:** Add the following code to `configuration.yaml` file.
 
 ```
 sensor: !include_dir_merge_list sensor/
