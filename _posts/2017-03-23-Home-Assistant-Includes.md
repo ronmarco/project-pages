@@ -50,7 +50,7 @@ group:
 **Step 1:** Create a new groups.yaml file with all the code after the header:
 
 ```
-# Alarm clock
+## Alarm clock
 
   alarm_clock:
     name: 'Alarm Clock'
@@ -82,6 +82,8 @@ To place the yaml code in a sub-folder, all you have to do is:
 **Step 2:** Add the folder name to the include code. The line in `configuration.yaml` should read:
 
 ```
+## Weather sensor
+
 group: !include include/groups.yaml
 ```
 
@@ -91,7 +93,9 @@ When your configuration gets very complex, it can be helpful to further split th
 
 I started with this code:
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Sensor:
+<div class="highlighter-rouge"><pre class="highlight"><code>## Alarm clock sensor
+
+Sensor:
   - platform: yr
   - platform: time_date
     display_options:
