@@ -23,7 +23,7 @@ src="https://www.youtube.com/embed/Ili8B4hgQ-g" frameborder="0" allowfullscreen>
 
 # Intro
 
-If you are getting started with Home Assistant, you may notice the `configuration.yaml` file growing long and difficult to manage. I'm going to show you three ways I split my configuration.yaml file into other yaml files to make my configuration more organized. 
+If you are getting started with Home Assistant, you may notice the `configuration.yaml` file growing long and difficult to manage. I'm going to show you three ways I split my `configuration.yaml` file into other yaml files to make my configuration more organized. 
 
 The Home Assistant website has a [great page on how to split your configuration](https://home-assistant.io/docs/configuration/splitting_configuration/). I'll be covering a more detailed how-to in this article.
 
@@ -31,7 +31,7 @@ The example configuration I use in this article (including the Alarm Clock) was 
 
 # Includes in same folder
 
-We'll separate some code from configuration.yaml into another yaml file in the same '/homeassistant/' folder. In this example, I'll move the code in the `group:` section, but it works for other sections in the `configuration.yaml`.
+We'll separate some code from `configuration.yaml` into another yaml file in the same `/homeassistant/` folder. In this example, I'll move the code in the `group:` section, but it works for other sections in the `configuration.yaml`.
 
 I start with this section of code:
 
@@ -47,7 +47,7 @@ group:
       - input_boolean.alarm_clock_status
 ```
 
-**Step 1:** Create a new groups.yaml file with all the code after the header:
+**Step 1:** Create a new `groups.yaml` file with all the code after the header:
 
 ```
 ## Alarm clock
