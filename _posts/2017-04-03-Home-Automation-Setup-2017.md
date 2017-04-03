@@ -37,7 +37,7 @@ I use [Home Assistant's device tracker](https://home-assistant.io/components/dev
 
 ## Making Old Devices "Smart"
 
-I use [this IR blaster](http://amzn.to/2oOYPnJ) to control my TV. Cheaper ones have come out since I bought the above, such as [this](http://amzn.to/2nuZfyx )(Cheaper on AliExpress.com, search "Broadlink RM Mini3")
+I use [this IR blaster](http://amzn.to/2oOYPnJ) to control my TV. Cheaper ones have come out since I bought the above, such as [this](http://amzn.to/2nuZfyx ) (Even cheaper on AliExpress.com, search "Broadlink RM Mini3")
 
 ## Alarm Clock
 
@@ -61,7 +61,7 @@ Vacation mode was inspired by [Github user "geekofweek"](https://github.com/geek
 
 # Automation Tips
 
-Learn about Input Booleans here: https://home-assistant.io/components/input_boolean/
+Learn about Input Booleans [on the Home Assistant website](https://home-assistant.io/components/input_boolean/).
 
 My Excel tracker is disorganized and confusing right now, but let me know if you're interested in it and I'll clean it up and share it.
 
