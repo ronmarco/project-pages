@@ -51,6 +51,8 @@ I use [nmap](https://home-assistant.io/components/device_tracker.nmap_tracker/) 
 
 I use [Philips Hue bulbs](http://amzn.to/2ornwdA) for lights. If you already have a Hue hub, you can get [cheap bulbs here](http://www.homedepot.com/p/Philips-60W-Equivalent-Soft-White-A19-Hue-Connected-Home-LED-Light-Bulb-455295/206633282).
 
+[This link](https://community.openenergymonitor.org/t/do-hue-led-bulbs-use-a-fixed-amount-of-power-relative-to-brightness/1793) talks about Hue power usage by brightness.
+
 # Improved Interactions
 
 I use an [Alexa Tap](http://amzn.to/2nyxmGI) in the video. I like the portability of the Tap, especially since the firmware update.
