@@ -29,7 +29,7 @@ I kept this video high-level, so let me know what you'd like to learn more about
 
 ## Tracking Locations
 
-* I use [this smart switch](http://amzn.to/2oruAY3) to measure current (I use an older version that's not sold any more).
+I use [this smart switch](http://amzn.to/2oruAY3) to measure current (I use an older version that's not sold any more).
 Check out [Plex](https://www.plex.tv/) for watching media.
-* I use [Home Assistant's device tracker](https://home-assistant.io/components/device_tracker/) to scan my network for phones. 
+I use [Home Assistant's device tracker](https://home-assistant.io/components/device_tracker/) to scan my network for phones. 
 
