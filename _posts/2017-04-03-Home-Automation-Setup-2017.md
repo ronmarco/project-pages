@@ -29,7 +29,7 @@ I kept the video high-level, so let me know what you'd like to learn more about.
 
 ## Tracking Locations
 
-I use [this smart switch](http://amzn.to/2oruAY3) to measure current (I use an older version that's not sold any more).
+I use [this smart switch](http://amzn.to/2n5J4MW) to measure current (I use an older version that's not sold any more).
 
 Check out [Plex](https://www.plex.tv/) for watching media.
 
@@ -37,7 +37,7 @@ I use [Home Assistant's device tracker](https://home-assistant.io/components/dev
 
 ## Making Old Devices "Smart"
 
-I use [this IR blaster](http://amzn.to/2oOYPnJ) to control my TV. Cheaper ones have come out since I bought the above, such as [this](http://amzn.to/2nuZfyx ) (Even cheaper on AliExpress.com, search "Broadlink RM Mini3")
+I use [this IR blaster](http://amzn.to/2n635TI) to control my TV. Cheaper ones have come out since I bought the above, such as [this](http://amzn.to/2n5WgSa) (Even cheaper on AliExpress.com, search "Broadlink RM Mini3")
 
 ## Alarm Clock
 
@@ -49,13 +49,15 @@ I send notifications through [Pushbullet](https://home-assistant.io/components/n
 
 I use [nmap](https://home-assistant.io/components/device_tracker.nmap_tracker/) to track the status of my computers.
 
-I use [Philips Hue bulbs](http://amzn.to/2ornwdA) for lights. If you already have a Hue hub, you can get [cheap bulbs here](http://www.homedepot.com/p/Philips-60W-Equivalent-Soft-White-A19-Hue-Connected-Home-LED-Light-Bulb-455295/206633282).
+I use [Philips Hue bulbs](http://amzn.to/2nDo4JQ) for lights. If you already have a Hue hub, you can get [cheap bulbs here](http://www.homedepot.com/p/Philips-60W-Equivalent-Soft-White-A19-Hue-Connected-Home-LED-Light-Bulb-455295/206633282).
 
 [This link](https://community.openenergymonitor.org/t/do-hue-led-bulbs-use-a-fixed-amount-of-power-relative-to-brightness/1793) talks about Hue power usage by brightness.
 
 # Improved Interactions
 
-I use an [Alexa Tap](http://amzn.to/2nyxmGI) in the video. I like the portability of the Tap, especially since the firmware update.
+I use an [Alexa Tap](http://amzn.to/2nDmqHR) in the video. I like the portability of the Tap, especially since the firmware update.
+
+I also use an [Alexa Dot](http://amzn.to/2oDjaNF) for my bedroom, since it's a cheap way to add voice control to a room.
 
 # Visitors & Vacation
 
