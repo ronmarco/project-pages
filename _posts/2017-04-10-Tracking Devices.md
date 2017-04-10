@@ -68,7 +68,7 @@ Nmap (a.k.a., [Network Mapper](https://en.wikipedia.org/wiki/Nmap)) discovers ho
 Two steps are required to install:
 
 1. Install Nmap on your host device (I use a [Raspberry Pi](http://amzn.to/2plPtjX)). I use the Hassbian image, which is based on Debian, so I use the following code on my Raspberry Pi: `sudo apt-get install net-tools nmap`
-2. Add the Nmap tracker component to Home Assistant. I added the following code to my configuration.yaml file:
+2. Add the Nmap tracker component to Home Assistant. I added the following code to my `configuration.yaml` file:
 
 ```
 device_tracker:
@@ -96,7 +96,7 @@ You can also track devices using:
 
 Using current sensors, I can evaluate the status of electronics not connected to my network, for example my computer monitor and TV.
 
-I use the following code to translate a reading of >10 Watts from my Smart Sensor to a on/off status:
+I use the following code to translate a reading of >10 Watts from my Smart Sensor to an on/off status:
 
 ```
 binary_sensor:
@@ -113,8 +113,8 @@ binary_sensor:
 
 I primarily use device status to control my automations in two ways
 
-1. Trigger for automaitons - start automations
-2. Condition for automaations - control when they running
+1. Trigger for automations - start automations
+2. Condition for automations - control when they running
 
 Triggers are helpful when you want an automation to run when you arrive home, for example. You can also log the status with other Home Assistant components, such as [IFTTT](https://home-assistant.io/components/ifttt/).
 
