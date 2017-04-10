@@ -103,7 +103,7 @@ I use the following code to translate a reading of >10 Watts from my Smart Senso
     sensors:
       tv_status:
         friendly_name: 'TV Status'
-        value_template: "{<code></code>{ states.switch.smart_switch1.attributes.current_power_w  > 10 }}</code></pre>
+        value_template: "{<code></code>{ states.switch.smart_switch1.attributes.current_power_w  > 10 }}"</code></pre>
 </div>
 
 [Find more information on template binary sensors here](https://home-assistant.io/components/binary_sensor.template/).
