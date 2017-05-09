@@ -54,7 +54,7 @@ You can automate almost anything in your house if you pay for it. Interfaces are
 
 There is some compatibility with other systems, but the protocols used are typically proprietary, so it won't simply work many off-the-shelf home automation components. Companies have been making improvements as more home automation devices enter the market, but they are still less compatible than other solutions. Setups can be built into house - and hardwired - so modifications are physically difficult. 
 
-**Affordability : Very Low**
+**Affordability: Very Low**
 
 As you can imagine, the costs are very high. Expect to pay four, five, even six figures for a very nice setup. Remember, you're paying for labor too.
 
@@ -217,7 +217,7 @@ You'll have to be familiar with coding or open to learning. The hubs have a bit 
 
 Open source hubs will give you the best performance, but in exchange for your time.
 
-# Reccomendations
+# Recommendations
 
 You can start at any of these points.
 
